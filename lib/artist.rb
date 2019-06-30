@@ -10,7 +10,7 @@ class Artist
   end
 
   def add_song(song)
-    @songs << song
+    @songs << song #can also just use self.songs <<song because songs was defined in attr_accessor
   end
 
   def save
